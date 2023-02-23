@@ -1,16 +1,37 @@
-﻿//Задача 5 квадрат друг друга
-Console.Write("Введите первое число: ");
-int number1 = int.Parse(Console.ReadLine()!);
-Console.Write("Введите второе число: ");
-int number2 = int.Parse(Console.ReadLine()!);
-if (number2*number2==number1 || number1*number1==number2)
+﻿
+Console.Write("Введите число: ");
+int n = int.Parse(Console.ReadLine()!);
+if (n%5==0 && n%3==0)
 {
-    Console.WriteLine("квадрат");
+    Console.WriteLine("FizzBizz");
 }
-else
+else 
 {
-    Console.WriteLine("не квадрат");
+if (n%3==0)
+{
+    Console.WriteLine("Fizz");
 }
+if (n%5==0)
+{
+    Console.WriteLine("Bizz");
+}
+}
+
+
+// Задача 5 квадрат друг друга
+// Console.Write("Введите первое число: ");
+// int number1 = int.Parse(Console.ReadLine()!);
+// Console.Write("Введите второе число: ");
+// int number2 = int.Parse(Console.ReadLine()!);
+// if (number2*number2==number1 || number1*number1==number2)
+// {
+//     Console.WriteLine("квадрат");
+// }
+// else
+// {
+//     Console.WriteLine("не квадрат");
+// }
+
 
 //Задача 4 кратно ли на 7 и 23
 // Console.Write("Введите число: ");
