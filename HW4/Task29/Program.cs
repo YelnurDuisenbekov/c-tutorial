@@ -1,4 +1,5 @@
-﻿void FillArray(int [] array)
+﻿
+void FillArray(int [] array)
 {
     int lenght = array.Length;
     for (int i =0; i<lenght; i++)
