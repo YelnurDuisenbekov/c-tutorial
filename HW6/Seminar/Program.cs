@@ -43,16 +43,16 @@ PrintArray(array);
 //     }
 //     return res;
 // }
-// int [] CloneArray(int [] array)
-// {
-//     int size = array.Length;
-//     int [] cloneArray = new int [size];
-//     for (int i=0; i<size; i++)
-//     {
-//         cloneArray[i]=array[i];
-//     }
-//     return cloneArray;
-// }
+int [] CloneArray(int [] array)
+{
+    int size = array.Length;
+    int [] cloneArray = new int [size];
+    for (int i=0; i<size; i++)
+    {
+        cloneArray[i]=array[i];
+    }
+    return cloneArray;
+}
 // int size = VvodimoeChislo("Введите размер массива ");
 // int minval = VvodimoeChislo("Введите мин значение ");
 // int maxval = VvodimoeChislo("Введите макс значение ");
